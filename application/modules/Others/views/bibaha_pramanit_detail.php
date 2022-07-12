@@ -86,7 +86,7 @@ $current_session    = Modules::run('Settings/getCurrentSession',$result->session
                                     </tr>
                                     <tr>
                                         <td>विवाह प्रकार</td>
-                                        <td><?= $marriage_type ?></td>
+                                        <td><?=$marriage_types ?></td>
                                     </tr>
                                     <tr class="text-center font-bold font-20">
                                         <td colspan="2">दुलहाको विवरण

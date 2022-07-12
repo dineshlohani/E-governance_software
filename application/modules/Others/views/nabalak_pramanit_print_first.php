@@ -220,7 +220,7 @@ $worker_post        = Modules::run('Settings/getPost',$ward_worker->post_id);
             <div class="b">निवेदक,</div>
             दस्तखत: <br>
             नाम थर: <?=$result->applicant_name?><br>
-            नाता सम्बन्ध: <?=$result->relationship?><br>
+            नाता सम्बन्ध: <?=$relation->name?><br>
             मिति: <?= $result->nepali_date?>
 
         </div>
