@@ -48,7 +48,7 @@
     </div>
     <div class="row">
         <div class="col-12">
-            <p style="font-size:18px; text-align: justify;"> श्री <b><?= $result->g_grand_father_name ?></b> को नाति श्री <b><?= $result->g_father_name ?></b> तथा श्रीमती <b><?= $result->g_mother_name ?> </b>को छोरा <b><?= $org_district_g->name?>, <?= $org_local_body_g->name ?>,</b> वार्ड-<b><?= $org_ward_g->name ?></b> (साबिकको ठेगाना <b><?= $org_old_new_g->name ?></b>) निबासी श्री <b><?= $result->g_name ?></b> संग श्री <b><?= $result->b_grand_father_name ?></b> को नातिनी श्री <b><?= $result->b_father_name ?></b> तथा श्रीमती <b><?= $result->b_mother_name ?></b> को
+            <p style="font-size:18px; text-align: justify;"> श्री <b><?= $result->g_grand_father_name ?></b> को नाति श्री <b><?= $result->g_father_name ?></b> तथा श्रीमती <b><?= $result->g_mother_name ?> </b>को छोरा <b><?= $org_district_g->name?>, <?= $org_local_body_g->name ?>,</b> वार्ड-<b><?= $org_ward_g->name ?> निबासी श्री <b><?= $result->g_name ?></b> संग श्री <b><?= $result->b_grand_father_name ?></b> को नातिनी श्री <b><?= $result->b_father_name ?></b> तथा श्रीमती <b><?= $result->b_mother_name ?></b> को
             छोरी <b><?=$org_district_b->name?>, <?= $org_local_body_b->name ?></b> वडा-<b><?= $org_ward_g->name ?></b> निबासी
             सुश्री <b><?= $result->b_name ?></b> बीच मिति <b><?= $result->marriage_date_nepali ?></b> मा विवाह भई यस वडा कार्यालयमा मिति <?=$result->nepali_date?> मा भएको व्यहोरा प्रमाणित गरिन्छ। </p>
         </div>

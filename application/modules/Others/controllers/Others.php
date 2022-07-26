@@ -9433,7 +9433,7 @@ class Others extends MX_Controller {
            $this->form_validation->set_rules('b_district', 'जिल्ला', 'required');
            $this->form_validation->set_rules('b_local_body', 'गा.पा./न.पा.', 'required');
            $this->form_validation->set_rules('b_ward', 'वडा नं', 'required');
-           $this->form_validation->set_rules('b_old_address', 'साबिक ठेगाना', 'required');
+           //$this->form_validation->set_rules('b_old_address', 'साबिक ठेगाना', 'required');
 
            if ($this->form_validation->run() == FALSE)
            {
@@ -9537,6 +9537,7 @@ class Others extends MX_Controller {
        }
        $id         = $this->uri->segment(3);
        $result     = $data['result']     = $this->Mdl_bibaha_pramanit->getById($id);
+       //pp($result);
        if(empty($data['result']))
        {
            $this->session->set_flashdata('err_msg',"समस्या आयो | ");

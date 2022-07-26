@@ -316,16 +316,16 @@
 
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <!-- <div class="col-md-6">
                                 <div class="form-group row">
                                     <label class="col-md-4 col-form-label">
                                             <span class="float-right">
                                                 साबिक ठेगाना <span class="text-danger">&nbsp;*</span>
                                             </span>
 
-                                    </label>
+                                    </label> -->
 
-                                        <div class="col-sm-8">
+                                        <!-- <div class="col-sm-8">
                                             <select name="g_old_address" class="form-control select2" required id="id_g_old_place">
                                               <option value="" >छान्नुहोस्</option>
                                             <?php foreach($old_new as $data): ?>
@@ -341,7 +341,7 @@
                                                     <?= $data->name ?></option>
                                             <?php endforeach; ?>
                                             </select>
-                                        </div>
+                                        </div> -->
 
                                 </div>
                             </div>
@@ -539,7 +539,7 @@
                                             <input name="b_citizenship_no" class="form-control" value="<?= isset($result) ? $result->b_citizenship_no : ''?>" required>
                                         </div>
 
-                                </div>
+                                <!-- </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group row">
@@ -567,7 +567,7 @@
 <?php endforeach; ?>
 
 </select>
-                                        </div>
+                                        </div> -->
 
                                 </div>
                             </div>

@@ -86,7 +86,9 @@ $current_session    = Modules::run('Settings/getCurrentSession',$result->session
                                     </tr>
                                     <tr>
                                         <td>विवाह प्रकार</td>
-                                        <td><?=$marriage_types ?></td>
+                                        <td>
+                                            <?php $mtype = $this->Mdl_bibaha_pramanit->getById($result->marriage_type);?>
+                                            <?= $mtype->marriage_type ?></td>
                                     </tr>
                                     <tr class="text-center font-bold font-20">
                                         <td colspan="2">दुलहाको विवरण
@@ -192,14 +194,7 @@ $current_session    = Modules::run('Settings/getCurrentSession',$result->session
                                             <?= $org_local_body_b->name.", वार्ड-".$org_ward_b->name.", ".$org_district_b->name.", ".$org_state_b->name ?>
                                         </td>
                                     </tr>
-                                    <tr>
-                                        <td>
-                                            साबिक ठेगाना
-                                        </td>
-                                        <td>
-                                            <?= $org_old_new_b->name ?>
-                                        </td>
-                                    </tr>
+                                   
                                     <tr class="text-center font-bold font-20">
                                         <td colspan="2">कागजात</td>
                                     </tr>
@@ -379,7 +374,7 @@ $current_session    = Modules::run('Settings/getCurrentSession',$result->session
                                     <div class="space2"> </div>
                                     <div class="row">
                                         <div class="col-12">
-                                            श्री <b><?= $result->g_grand_father_name ?></b> को नाति श्री <b><?= $result->g_father_name ?></b> तथा श्रीमती <b><?= $result->g_mother_name ?> </b>को छोरा <b><?= $org_district_g->name?>, <?= $org_local_body_g->name ?>,</b> वार्ड-<b><?= $org_ward_g->name ?></b> (साबिकको ठेगाना <b><?= $org_old_new_g->name ?></b>) निबासी श्री <b><?= $result->g_name ?></b> संग श्री <b><?= $result->b_grand_father_name ?></b> को नातिनी श्री <b><?= $result->b_father_name ?></b> तथा श्रीमती <b><?= $result->b_mother_name ?></b> को
+                                            श्री <b><?= $result->g_grand_father_name ?></b> को नाति श्री <b><?= $result->g_father_name ?></b> तथा श्रीमती <b><?= $result->g_mother_name ?> </b>को छोरा <b><?= $org_district_g->name?>, <?= $org_local_body_g->name ?>,</b> वार्ड-<b><?= $org_ward_g->name ?>  निबासी श्री <b><?= $result->g_name ?></b> संग श्री <b><?= $result->b_grand_father_name ?></b> को नातिनी श्री <b><?= $result->b_father_name ?></b> तथा श्रीमती <b><?= $result->b_mother_name ?></b> को
                                             छोरी <b><?=$org_district_b->name?>, <?= $org_local_body_b->name ?></b> वडा-<b><?= $org_ward_g->name ?></b> निबासी
                                             सुश्री <b><?= $result->b_name ?></b> बीच मिति <b><?= $result->marriage_date_nepali ?></b> मा विवाह भई यस वडा कार्यालयमा मिति <?=$result->nepali_date?> मा भएको व्यहोरा प्रमाणित गरिन्छ।
                                         </div>

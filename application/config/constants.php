@@ -93,7 +93,7 @@ defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest auto
 // defined('SITE_OFFICE')          OR define('SITE_OFFICE', 'जलजला गाउँपालिका');
 // defined('SITE_WARD_OFFICE')     OR define('SITE_WARD_OFFICE',"नं वडा कार्यालय");
 // defined('SITE_PALIKA')          OR define('SITE_PALIKA', "गाउँकार्यपालिकाको कार्यालय");
-defined('SITE_ADDRESS')         OR define('SITE_ADDRESS',"कुरिनटार");
+defined('SITE_ADDRESS')         OR define('SITE_ADDRESS',"नेपालटार");
 // defined('SITE_STATE')           OR define('SITE_STATE',"गण्डकी प्रदेश, नेपाल");
 // defined('SITE_OFFICE_TYPE')     OR define('SITE_OFFICE_TYPE', 'गाउँपालिका');
 // defined('SITE_DISTRICT')        OR define('SITE_DISTRICT', 'भरतपुर, चितवन');
@@ -108,7 +108,7 @@ defined('SITE_ADDRESS')         OR define('SITE_ADDRESS',"कुरिनटा�
 // defined('SITE_DISTRICT_ENG')        OR define('SITE_DISTRICT_ENG', 'Parbat');
 
 defined('SITE_STATE_ID_EN')			OR define('SITE_STATE_ID_EN', '3');
-defined('SITE_DISTRICT_ID_EN')		OR define('SITE_DISTRICT_ID_EN', '35');
+defined('SITE_DISTRICT_ID_EN')		OR define('SITE_DISTRICT_ID_EN', '30');
 defined('SITE_GAPA_ID_EN')			OR define('SITE_GAPA_ID_EN', '392');
 
 // error_reporting(1);
